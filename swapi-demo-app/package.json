@@ -1,0 +1,46 @@
+{
+  "name": "swapi-demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "apollo-cache-inmemory": "^1.3.11",
+    "apollo-client": "^2.4.7",
+    "apollo-link": "^1.2.4",
+    "apollo-link-context": "^1.0.10",
+    "apollo-link-error": "^1.1.2",
+    "apollo-link-http": "^1.5.7",
+    "apollo-link-ws": "^1.0.10",
+    "apollo-upload-client": "^9.1.0",
+    "get_in_ppx": "^1.0.2",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0",
+    "react": "^16.6.3",
+    "react-apollo": "^2.3.2",
+    "react-dom": "^16.6.3",
+    "reason-apollo": "^0.14.2",
+    "reason-scripts": "1.0.0",
+    "subscriptions-transport-ws": "^0.9.15"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@glennsl/bs-jest": "^0.4.5",
+    "bs-fetch": "^0.3.1",
+    "bs-platform": "^4.0.8",
+    "graphql_ppx": "^0.2.8",
+    "reason-react": "^0.5.3"
+  }
+}

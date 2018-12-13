@@ -1,0 +1,15 @@
+{
+  "name": "basicserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "graphql-yoga": "^1.16.7",
+    "nodemon": "^1.18.7"
+  }
+}

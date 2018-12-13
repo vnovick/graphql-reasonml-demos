@@ -1,0 +1,26 @@
+{
+  "name": "reason-scripts",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": [
+        "components"
+      ]
+    }
+  ],
+  "bs-dependencies": [
+    "reason-react",
+    "@glennsl/bs-jest",
+    "bs-fetch",
+    "@glennsl/bs-json"
+  ],
+  "reason": {
+    "react-jsx": 2
+  },
+  "refmt": 3,
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js"
+}
